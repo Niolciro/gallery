@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Modal Gallery</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  </head>
+
+  <body>
+
+    <div class="titre">
+    <h1>Welcome to my gallery!</h1>
+    <img class="cat" src="chat5.png" >
+    </div>
+
+    <div class="gallery">
+
+      
+      <button class="scroll" onclick="left()">&lt;</button>
+      
+      <div class="item">
+        <img src="" alt="" class="thumbnail principal image" onclick="showModal(this)">
+        <h2 class="h2-1 title"></h2>  
+        <div class="white-box">
+            <p class="scroll-box description"></p>
+        </div>
+      </div>
+
+      
+
+      <div class="item">
+        <img src="" alt="" class="thumbnail principal image" onclick="showModal(this)">
+        <h2 class="h2-2 title"></h2>
+        <div class="white-box">
+            <p class="scroll-box description"></p>
+        </div>
+      </div>
+
+    
+
+      <div class="item">
+        <img src="" alt="" class="thumbnail principal image" onclick="showModal(this)">
+        <h2 class="h2-3 title"></h2>
+        <div class="white-box">
+            <p class="scroll-box description"></p>
+        </div>
+      </div>
+
+      <button class="scroll" onclick="right()">&gt;</button>      
+
+    </div>
+    
+    <div id="modal">
+      <span id="modal-close-button" onclick="hideModal()">x</span>
+      <img id="modal-content">
+    </div>
+
+  </body>
+  <script src="script.js"></script>
+</html>
