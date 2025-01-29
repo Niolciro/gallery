@@ -100,3 +100,14 @@ function right(){
 // NPM => Node Package Manager (install liste des dépendance demandée [react,..])
 // Git gerer les versions du code 
 //--> commit = mettre un tampon pour se souvenir de quel version j'ai utilisé
+//git ad
+// repertoire . c'est le repertoire normal 
+// .. = repertoire au dessus le slash d'avatn qoi
+// contrl L pour tout suppr le terminal
+//pwd = te dit quel repertoire tu es 
+
+
+//git init (a chaque projet)
+//git status pour voir létat de ton code si il est tamponné/enregistrer
+//git add .
+// git commit -m "bonjour" ("bonjour" = nom du tampon/mise a jour)
